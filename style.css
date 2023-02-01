@@ -219,13 +219,15 @@ footer {
     }
     .bars{
         display:inline-block;
+        position: relative;
+        left:35px;
     }
     .header-section a{
         display: none;
     }
    .fa-cart-shopping{
     position: relative;
-    right: 20px;
+    right: 25px;
    }
     .influencer-container{
         flex-direction: column-reverse;
