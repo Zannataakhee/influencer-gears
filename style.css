@@ -32,6 +32,9 @@ main {
     font-size: 16px;
     color: #3A3A3A;
 }
+.fa-cart-shopping{
+    margin-left: 15px;
+}
 .influencer-container {
     display: flex;
     align-items: center;
@@ -220,10 +223,10 @@ footer {
     .header-section a{
         display: none;
     }
-    .fa-cart-shopping{
-        display:inline-block;
-    }
-   
+   .fa-cart-shopping{
+    position: relative;
+    right: 20px;
+   }
     .influencer-container{
         flex-direction: column-reverse;
     }
