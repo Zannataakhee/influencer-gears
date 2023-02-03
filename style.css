@@ -2,7 +2,7 @@
 /* -----common style------ */
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0%;
+    margin:0;
     background: #ffff;
 }
 main {
@@ -16,7 +16,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 .bars{
     display: none;
@@ -38,8 +38,8 @@ main {
 .influencer-container {
     display: flex;
     align-items: center;
-    margin-top: 20px;
-    column-gap: 50px;
+    justify-content:space-between;
+    margin-top: 10px;
 }
 .influencer-details h1{
     font-size: 52px;
@@ -63,10 +63,8 @@ main {
 .fa-arrow-right{
     margin-left: 5px;
 }
-.influencer-details img {
-    width: 475px;
-    height: 475px;
-    background-image: url(images/images/Circle\ design.svg);
+.influencer-image img {
+    margin-left: 70px;
 }
 .other-section {
     margin-top: 50px;
@@ -76,9 +74,10 @@ hr{
 }
 .logo-style {
     display: grid;
-    grid-template-columns: repeat(7,1fr);
+    grid-template-columns: repeat(7, 1fr);
     justify-content: center;
     align-items: center;
+    padding-top: 12px;
 }
 .other-style{
 
@@ -231,24 +230,23 @@ footer {
     .influencer-container{
         flex-direction: column-reverse;
     }
-    .influencer-details img {
-        width: 476px;
-        height: 474px;
-    }
     .influencer-details h1 {
         font-weight: 700;
-        font-size: 28px;
+        font-size: 25px;
         line-height: 20px;
         text-align: center;
     }
-    .influencer-details p{
-        font-weight: 500;
-        font-size: 14px;
+    .influencer-details p {
+        font-weight: 600;
+        font-size: 9px;
         text-align: center;
     }
     .influencer-details a {
         position: relative;
-        left: 125px;
+        left: 66px;
+    }
+    .influencer-image img{
+        width:100%;
     }
     hr{
         display: none;
@@ -287,12 +285,13 @@ footer {
         left: 125px;
     }
     .last-section img {
-    width: 299px;
-    height: 188px;
-    position: relative;
-    left: 50px;
-    top: 40px;
-}
+        width: 299px;
+        height: 188px;
+        position: relative;
+        right: -38px;
+        top: 40px;
+        justify-content: center;
+    }
 footer {
     width: 700px;
     height: 211px;
