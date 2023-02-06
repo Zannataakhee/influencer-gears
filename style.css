@@ -63,8 +63,13 @@ main {
 .fa-arrow-right{
     margin-left: 5px;
 }
-.influencer-image img {
+.influencer-image{
     margin-left: 80px;
+}
+.influencer-image img {
+    width:440px;
+    height: 414px;
+    
 }
 .other-section {
     margin-top: 50px;
@@ -245,9 +250,15 @@ footer {
         position: relative;
         left: 66px;
     }
-    .influencer-image img{
-        width:100%;
+    .influencer-image{
+        position: relative;
+    right: 55px;
     }
+    .influencer-image img{
+        width:257px;
+        height:257px;
+    }
+    
     hr{
         display: none;
     }
