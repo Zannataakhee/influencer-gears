@@ -230,7 +230,7 @@ footer {
     }
    .fa-cart-shopping{
     position: relative;
-    right: 25px;
+    right: 35px;
    }
     .influencer-container{
         flex-direction: column-reverse;
@@ -252,7 +252,7 @@ footer {
     }
     .influencer-image{
         position: relative;
-    right: 55px;
+        right: 55px;
     }
     .influencer-image img{
         width:257px;
@@ -264,11 +264,10 @@ footer {
     }
     .logo-style {
         grid-template-columns: repeat(4, 1fr);
-        padding-left: 20px;
     }
-    .other-style{
+    .other-style {
         position: relative;
-        left: 30px;
+        left: 35px;
     }
     .photo-section{
         grid-template-columns: repeat(1,1fr);
